@@ -23,7 +23,7 @@ namespace APIOne.src.Services
         {
             return await _userRepository.Get(id);
         }
-
+        //List
         public async Task<List<UsersEntity>> List()
         {
             return await _userRepository.List();
